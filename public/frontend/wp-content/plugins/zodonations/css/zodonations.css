@@ -1,0 +1,153 @@
+.site_donate_form .paypal_icon{
+	height: 35px;
+}
+.site_donate_form{
+	text-align: left;
+	color: #999999;line-height: initial;
+}
+.site_donate_form input.invalid{
+box-shadow:0 0 2px 0 red;
+-moz-box-shadow:0 0 2px 0 red;
+-webkit-box-shadow:0 0 2px 0 red;
+}
+.modal .loading {
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 10px;
+    vertical-align: middle;
+    visibility: hidden;
+}
+.modal-content {
+    border: medium none;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+.modal-backdrop.in {
+    opacity: 1;
+}
+.modal-backdrop {
+    background: rgba(28, 28, 28, 0.88) none repeat scroll 0 0;
+}
+.modal .popup_title {
+    background: #b93a41 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 28px;
+    padding: 30px 100px 30px 30px;
+    position: relative;
+}
+.modal .popup_title h4 {
+    color: #fff;
+    font-weight: 700;
+    margin: 10px 0 0;
+}
+.modal .close_popup {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    height: 32px;
+    padding-top: 4px;
+    position: absolute;
+    right: 30px;
+    text-align: center;
+    top: 30px;
+    width: 33px;
+}
+.modal .close_popup:hover {
+    background: #fff none repeat scroll 0 0;
+    border-color: #fff;
+    color: #b93a41;
+}
+.modal .popup_content {
+    background: #fff none repeat scroll 0 0;
+    padding: 20px 30px;
+    position: relative;
+}
+.site_donate_form .amount_wrapper .button {
+	text-align: center;
+}
+.donation_popup_form .amount_wrapper, .site_donation_popup_form .amount_wrapper {
+    border-bottom: 1px solid #dcdcdc;
+    margin: 0 0 30px;
+    padding: 0 0 30px;
+    position: relative;
+}
+.donation_popup_form .amount_wrapper p, .site_donation_popup_form .amount_wrapper p {
+    color: #808080;
+    font-size: 13px;
+    margin: 0 0 8px;
+}
+.donation_popup_form .amount_wrapper input[type="radio"], .site_donation_popup_form .amount_wrapper input[type="radio"] {
+    display: none;
+}
+.donation_popup_form .amount_wrapper .button, .site_donation_popup_form .amount_wrapper .button {
+    cursor: pointer;
+    font-family: Georgia,Arial,sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    margin: 0 15px 0 0;
+}
+.donation_popup_form .amount_wrapper .form-control, .site_donation_popup_form .amount_wrapper .form-control {
+  display: inline-block;
+  font-size: 14px;
+  padding: 10px;
+  width: 150px;
+}
+/* button */
+.button, body .wpb_btn-danger, body .wpb_btn-danger:active {
+    background: #b93a41 none repeat scroll 0 0;
+    border: 1px solid #b93a41;
+    border-radius: 4px;
+    box-shadow: none;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 10px 20px;
+    text-decoration: none !important;
+    text-shadow: none;
+    transition: all 0.3s linear 0s;
+    vertical-align: baseline;
+}
+.button.grey {
+    background: #e4e4e4 none repeat scroll 0 0;
+    border-color: #e4e4e4;
+    color: #8a8a8a;
+}
+.button.grey:hover {
+    background: #b93a41 none repeat scroll 0 0;
+    border-color: #b93a41;
+    color: #fff;
+}
+.button.black {
+    background: #4b4b4b none repeat scroll 0 0;
+    border-color: #4b4b4b;
+    color: #fff;
+}
+.button.black:hover {
+    background: #b93a41 none repeat scroll 0 0;
+    border-color: #b93a41;
+    color: #fff;
+}
+.button:hover, body .wpb_btn-danger:hover, .button:focus {
+    background: transparent none repeat scroll 0 0;
+    color: #b93a41;
+    text-shadow: none;
+}
+.button i {
+    font-size: 14px;
+    margin: 0 5px 0 -5px;
+}
+.button.bordered_1 {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #b93a41;
+    color: #b93a41;
+    padding: 10px 20px;
+}
+.button.bordered_1:hover, .button.bordered_2:hover {
+    background: #b93a41 none repeat scroll 0 0;
+    color: #fff;
+}
