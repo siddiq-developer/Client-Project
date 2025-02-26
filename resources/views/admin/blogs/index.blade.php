@@ -1,3 +1,4 @@
+
 @extends('partials.default')
 @section('content')
 <div class="container-fluid">
@@ -21,28 +22,28 @@
                 </thead>
 
                 <tbody>
-                    @foreach($blogs as $p)
-                        <tr>
-                            <td>{{$loop->iteration}}</td>
-                            <td width="15%">
-                                <img style="width: 100%;" src="{{\Storage::disk('public')->url('app/public/blogs/'.$p->image)}}">
-                            </td>
-                            <td>{{$p->title}}</td>
-                            <td>{{$p->author}}</td>
-                            <td>{{date('Y-m-d',strtotime($p->published_at))}}</td>
-                            <td>
-                                  <div class="btn-group" role="group">
-                                    <button type="button" class="btn btn-primary btn-xxs dropdown-toggle" data-bs-toggle="dropdown">Actions</button>
-                                    <div class="dropdown-menu">
-                                         <a class="btn mt-1 btn-block btn-xxs" href="{{route('blogs.edit',['id'=>$p->id])}}">Edit</a>
-                                                <a class="btn mt-1 btn-block btn-xxs" href="{{route('blogs.delete',['id'=>$p->id])}}">Delete</a>
-                                    </div>
-                                </div>
-                               
-                            </td>
-                        </tr>
-                    @endforeach()
-                </tbody>
+    @foreach($blogs as $p)
+        <tr>
+            <td>{{ $loop->iteration }}</td>
+            <td width="15%">
+                <img style="width: 100%;" src="{{ \Storage::disk('public')->url('app/public/blogs/'.$p->image) }}">
+            </td>
+            <td>{{ $p->title }}</td>
+            <td>{{ $p->author }}</td>
+            <td>{{ date('Y-m-d', strtotime($p->published_at)) }}</td>
+            <td>
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-primary btn-xxs dropdown-toggle" data-bs-toggle="dropdown">Actions</button>
+                    <div class="dropdown-menu">
+                        <a class="btn mt-1 btn-block btn-xxs" href="{{ route('blogs.edit', ['id' => $p->id]) }}">Edit</a>
+                        <a class="btn mt-1 btn-block btn-xxs" href="{{ route('blogs.delete', ['id' => $p->id]) }}">Delete</a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    @endforeach
+</tbody>
+
             </table>
             {{$blogs->links()}}
         </div>

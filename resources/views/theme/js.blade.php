@@ -1,4 +1,7 @@
-            <script type="text/javascript" src="{{asset('frontend/wp-includes/js/jquery/jquery.js')}}"></script>
+
+           
+           
+           <script type="text/javascript" src="{{asset('frontend/wp-includes/js/jquery/jquery.js')}}"></script>
             <script type="text/javascript" src="{{asset('frontend/wp-includes/js/jquery/jquery-migrate.min.js')}}"></script>
             <script type="text/javascript" src="{{asset('frontend/wp-includes/js/jquery/ui/core.min.js')}}"></script>
             <script type="text/javascript" src="{{asset('frontend/wp-includes/js/jquery/ui/widget.min.js')}}"></script>

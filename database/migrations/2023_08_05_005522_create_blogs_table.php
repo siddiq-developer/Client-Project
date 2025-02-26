@@ -23,6 +23,7 @@ return new class extends Migration
         //     $table->timestamp('published_at')->nullable();
         //     $table->timestamps();
         // });
+// ============================================
 
         Schema::create('blogs', function (Blueprint $table) {
             $table->id();
@@ -33,9 +34,12 @@ return new class extends Migration
             $table->string('author');
             $table->timestamp('published_at')->nullable();
             $table->string('type')->nullable();
+            $table->date('date')->default(now());
             $table->timestamps();
         });
     }
+// ====================================
+
 
     /**
      * Reverse the migrations.

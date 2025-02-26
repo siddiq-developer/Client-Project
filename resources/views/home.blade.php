@@ -287,6 +287,7 @@
                                                         </div>
                                                         <div class="col-xs-12 col-sm-12 col-md-6">
                                                             @foreach($latest_events as $le)
+                                                            
                                                             <div class="cms-grid-item" data-groups='["all","category-meetings"]'>
                                                                 <div class="content-grid-our-event">
                                                                     <div class="content-our-event">
@@ -340,6 +341,7 @@
                                                             <div class="cms-grid-item">
                                                                      <div class="row cms-grid">   
                                                                      @foreach($blogs as $e)
+                                                                   
                                                                      <div class="col-xs-12 col-sm-12 col-md-6" style="margin-top: 1rem;">
                                                                         <div class="content-news">
                                                                             <div class="entry-date" style="height:70px;">

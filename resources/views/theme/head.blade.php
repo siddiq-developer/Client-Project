@@ -8,4 +8,5 @@
             <link rel="profile" href="http://gmpg.org/xfn/11">
             <title>ISOC Pakistan – Internet Society Islamabad Chapter</title>
             @include('theme.css')
+
         </head>
